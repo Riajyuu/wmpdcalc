@@ -1,0 +1,73 @@
+body {
+	font-family: "Segoe UI", Helvetica, Ubuntu, "Fira Sans", Noto, sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+input, select {
+	margin: 4px;
+	height: 26px;
+	padding-left: 8px;
+	border: 1px solid rgba(12, 12, 13, 0.3);
+	border-radius: 2px;
+	color: #0c0c0d;
+	width: 180px;
+}
+
+input:hover, select:hover {
+	border: 1px solid rgba(12, 12, 13, 0.5);
+	border-radius: 2px;
+}
+
+input:focus, select:focus {
+	border: 1px solid #0a84ff;
+	border-radius: 2px;
+	box-shadow: 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3);
+}
+
+button {
+	background-color: #0060df;
+	border-radius: 2px;
+	border: 1px solid #0060df;
+	margin: 4px 4px;
+	height: 28px;
+	padding: 0 8px;
+	width: auto;
+	min-width: 120px;
+	color: white;
+}
+
+button:hover {
+	background-color: #003eaa;
+}
+
+button:active {
+	background-color: #002275;
+	box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3);
+}
+
+fieldset {
+	border: 0;
+}
+
+label {
+	float: left;
+	text-align: right;
+	width: 50px;
+}
+
+.inputWrap {
+	display: block;
+}
+
+.inputWrap label {
+	margin: 5px 0;
+}
